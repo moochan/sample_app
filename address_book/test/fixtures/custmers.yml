@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  bookname: MyString
+  price: 1
+  custmer_id: 1
+
+two:
+  bookname: MyString
+  price: 1
+  custmer_id: 1

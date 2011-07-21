@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Bookname:</b>
+  <%= @custmer.bookname %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @custmer.price %>
+</p>
+
+<p>
+  <b>Custmer:</b>
+  <%= @custmer.custmer_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_custmer_path(@custmer) %> |
+<%= link_to 'Back', custmers_path %>
